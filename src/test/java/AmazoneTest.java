@@ -25,6 +25,9 @@ public class AmazoneTest {
     }
     @Test
     public void tesGoogle(){
-        driver.get("https://www.google.com");
+        driver.get("https://www.google.com");}
+
+        @Test
+        public void tesYoutube(){
+            driver.get("https://www.youtube.com");}
     }
-}
