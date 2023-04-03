@@ -23,4 +23,8 @@ public class AmazoneTest {
     public void testAmazon() {
         driver.get("https://www.amazon.fr");
     }
+    @Test
+    public void tesGoogle(){
+        driver.get("https://www.google.com");
+    }
 }
