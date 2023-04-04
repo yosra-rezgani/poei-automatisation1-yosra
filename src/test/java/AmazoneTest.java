@@ -26,5 +26,10 @@ public class AmazoneTest {
         String keyword = "iPhone 13";
         HomePage homePage = new HomePage(driver);
         homePage.search(keyword);
+        homePage.goToGamesAndConsolesPage();
+
+
+
+
     }
 }
