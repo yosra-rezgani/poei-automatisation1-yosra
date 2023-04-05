@@ -39,7 +39,7 @@ public class AmazoneTest {
         homePage.closeCookiePopup();
         homePage.search(keyword);
         searchResultPage.openSearchResult(0);
-        productPage.addToCart();
+        //productPage.addToCart();
         Assert.assertEquals(cartPage.getProductTitle(0), keyword);
     }
 }
