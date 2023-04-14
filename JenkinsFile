@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    triggers {cron {"* * * * * "}}
+    triggers { cron {"* * * * * "}}
 
     stages {
         stage('Init') {
@@ -20,4 +20,4 @@ pipeline {
           step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
         }
       }
-}gi
+}
