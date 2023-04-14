@@ -41,5 +41,7 @@ public class AmazoneTest {
         searchResultPage.openSearchResult(0);
         productPage.addToCart();
         Assert.assertEquals(cartPage.getProductTitle(0), keyword);
+
+        homePage.createNewAccount();
     }
 }
